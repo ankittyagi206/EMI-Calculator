@@ -28,6 +28,7 @@ const App = () => {
   );
   const [tenureVal, setTenureVal] = useState(tenure.defaultValue);
   const [emi, setEmi] = useState<number>(loanPerMonth.defaultValue);
+
   const calculateEMI = useCallback(
     (downPayment: any) => {
       if (!assetCostVal) return 0;

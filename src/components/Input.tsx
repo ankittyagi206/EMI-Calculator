@@ -10,7 +10,7 @@ const Input = ({ heading, value, placeholderText, onChange }: InputProps) => {
       <h2>{`${heading} (In %)`}</h2>
       <input
         style={{
-          width: "100%",
+          minWidth: "100%",
           padding: "20px",
           fontSize: "18px",
           border: "none",
